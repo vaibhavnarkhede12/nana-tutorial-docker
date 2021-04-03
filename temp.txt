@@ -1,0 +1,13 @@
+
+#to run theese containers:
+# docker-compose -f docker-commands.yaml up -d
+# docker-compose -f docker-commands.yaml down  -d
+#docker run -d -p8081:8081 --net mongo-network --name mongodb -e MONGO_INITDB_ROOT_USERNAME:root -e MONGO_INITDB_ROOT_PASSWORD:example mongodb 
+#docker build -t my-app:1.0 . 	
+
+go to aws 
+go to ECR elastic ontainer registry
+create repository
+enter name of the repo ex:my-app same as imagename > create
+
+
